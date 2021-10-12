@@ -3,6 +3,9 @@
 
 var obj = { name: "Rusty", room: "kitchen", weapon: "candlestick" };
 
-const { name, room, weapon } = { name: "Rusty", room: "kitchen", weapon: "candlestick" };
+const { name1, room1, weapon1 } = { name: "Rusty", room: "kitchen", weapon: "candlestick" };
 
-console.log(name.obj.name)
+console.log(obj.name);
+var [a, [b, [c, d]]] = [1, [2, [3, 4], 5], 6];
+console.log("a:", a, "b:", b, "c:", c, "d:", d);
+console.log(c)
