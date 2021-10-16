@@ -3,9 +3,27 @@
 
 var obj = { name: "Rusty", room: "kitchen", weapon: "candlestick" };
 
-const { name1, room1, weapon1 } = { name: "Rusty", room: "kitchen", weapon: "candlestick" };
+const { name1, room1, weapon1 } = {
+  name: "Rusty",
+  room: "kitchen",
+  weapon: "candlestick",
+};
 
 console.log(obj.name);
 var [a, [b, [c, d]]] = [1, [2, [3, 4], 5], 6];
 console.log("a:", a, "b:", b, "c:", c, "d:", d);
-console.log(c)
+console.log(c);
+
+const game = {};
+
+game["suspects"] = [];
+
+
+game.suspects.push({
+  name: "Rusty",
+  room: "Lobby",
+},
+{
+  name: "Miss Scarlet",
+  color: "red",
+});
