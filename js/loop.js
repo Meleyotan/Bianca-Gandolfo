@@ -62,3 +62,4 @@ for (var i = 0; i < game.suspects.length; i++) {
 //Exc. 03
 var [firstColor, secondColor] = [game.suspects[0].color, game.suspects[1].color];
 console.log([firstColor, secondColor])
+
