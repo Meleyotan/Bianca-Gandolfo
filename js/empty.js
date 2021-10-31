@@ -16,7 +16,7 @@ const newDevelopment = [
         name: 'Reverend Green',
         present: true,
         rooms: [
-            { kitchen:true. },
+            { kitchen:true},
             { ballroom: false },
             { conservatory: false },
             { 'dining room': false },
@@ -52,7 +52,10 @@ const newDevelopment = [
 
 //Get the rooms
 
-var notInRoom = () => { };
+var notInRoom = (rooms, memo) => {
+    suspect.rooms
+    memo.push()
+};
 
-reduce(newDevelopment, notInRoom, [])
+reduce(newDevelopment, notInRoom, []);
 //['living room', 'bathroom']
