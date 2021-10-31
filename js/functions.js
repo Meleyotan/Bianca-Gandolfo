@@ -45,6 +45,7 @@ _.each(suspects, function (name) {
 
 const _ = {}
 _.each = function (list, callback) {
+  console.log(arguments);
   if (Array.isArray(list)) {
     for (var i = 0; i < list.length; i++) {
       callback(list.i, i, list)//loop through array
